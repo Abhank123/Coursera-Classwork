@@ -10,24 +10,27 @@ h1#term {
 	font-weight: 400;
 	margin: 0 auto;
 	text-align: center;
-	text-transform: uppercase;
 	width: 300px;
 	
 	
 }
 
 p{
-	background-color: #FFFF00;
+	background-color: #40E0D0;
 	width: 90%;
 	height: 150px;
 	border: 3px solid black;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Helvetica, Arial, sans-serif;
+	overflow: auto;
+	font-size: 50%;
 }
 
 .box {
 	width: 100%;
+	position: relative;
+	top: 65px;
 }
 
 /** Now for Large Devices **/
@@ -67,6 +70,52 @@ p{
 	.col-sm-12 {width: 100%;
 	}
 }
+
+.boxtopright {
+	position: absolute;
+	top: 8px;
+	right: 9px;
+
+}
+
+#rightcorner {
+	background-color: #FFD700;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 125%;
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+
+	
+}
+#rightcorner2 {
+	background-color:  #FF0000;
+	text-align: center;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 125%;
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+#rightcorner3 {
+	background-color:  #00FF00;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 125%;
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+
 
 
 
