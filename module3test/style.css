@@ -1,4 +1,89 @@
-h1 {
-
-	color: red;
+body{
+	font-size: 100px;
+	color: yellow;
+	background-color: red;
+	font-family: "Oxygen", sans-serif;
 }
+
+#header-nav{
+	background-color: blue;
+	border: 0;
+	border-radius: 0;
+	
+}
+
+h1{
+	color: #fff;
+	opacity: 1;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#menu{
+	margin-top: 30px;
+}
+
+h4{
+	background-color: blue;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+
+#george{
+	height: 50px;
+	width: 100px;
+}
+
+
+@media (min-width: 1200px){
+	#collapsibleNavbar{
+		visibility: hidden;
+
+	}
+	#lol{
+		font-size: 100px;
+		font-family: "Oxygen", sans-serif;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#collapsibleNavbar{
+		visibility: hidden;
+	}
+	#lol{
+		font-size: 75px;
+		font-family: "Oxygen", sans-serif;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#collapsibleNavbar{
+		visibility: hidden;
+	}
+	#lol{
+		font-size: 75px;
+		font-family: "Oxygen", sans-serif;
+	}
+}
+
+h4{
+	font-size:40px;
+}
+
+#dummytext{
+	font-size: 31px;
+	margin-top: 100px;
+	color: #7FFFD4;
+}
+
